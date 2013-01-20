@@ -4,28 +4,28 @@ A simple `String.format` function for JavaScript and a very tiny templating engi
 ## String.format
 
 ```javascript
-	"{0} is dead, but {1} is alive! {0}".format("FLASH", "HTML5")
-	// return FLASH is dead, but HTML5 is alive! FLASH
+"{0} is dead, but {1} is alive! {0}".format("FLASH", "HTML5")
+// return FLASH is dead, but HTML5 is alive! FLASH
 ``` 
 
 ## JS Tiny Templating engine
 
 ```javascript
-	"Hello {who}!".t({ who : 'JavaScript'});
-     // return Hello JavaScript!
-     
-     "Hello {who}! It's {time} ms since epoch".t({who : 'JavaScript', time : 'today'});
-     // return Hello JavaScript! It's today ms since epoch
+"Hello {who}!".t({ who : 'JavaScript'});
+ // return Hello JavaScript!
+ 
+ "Hello {who}! It's {time} ms since epoch".t({who : 'JavaScript', time : 'today'});
+ // return Hello JavaScript! It's today ms since epoch
 ```
 
 ### JS Tiny Templating engine tricks
 Additional tips for using the templating engine.
 
 ```javascript
-	// any amount of object literal can be passed in as param to the function
-	"Hello {who}! It's {time} ms since {current} epoch".t({who : 'JavaScript', time : 'today'}, {current: 'multi'}); 
-	
-	// return Hello JavaScript! It's today ms since multi epoch
+// any amount of object literal can be passed in as param to the function
+"Hello {who}! It's {time} ms since {current} epoch".t({who : 'JavaScript', time : 'today'}, {current: 'multi'}); 
+
+// return Hello JavaScript! It's today ms since multi epoch
 ```
 
 
