@@ -17,9 +17,7 @@ String.prototype.format = function () {
     "use strict";
     var args = arguments;
     return this.replace(/\{(\d+)\}/g, function (match, number) {
-        return args[number] !== 'undefined'
-            ? args[number]
-            : match;
+        return args[number] !== 'undefined' ? args[number] : match;
     });
 };
 
