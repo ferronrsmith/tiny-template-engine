@@ -32,3 +32,6 @@ Additional tips for using the templating engine.
 >> NB: An object literal containing different type of object can be passed in and the function is able to transpose and replace. Please note this is a simple templating engine
 
 
+[![Build Status](https://travis-ci.org/ferronrsmith/tiny-template-engine.png?branch=master)](https://travis-ci.org/ferronrsmith/tiny-template-engine)
+
+[![Coverage Status](https://coveralls.io/repos/ferronrsmith/tiny-template-engine/badge.png?branch=master)](https://coveralls.io/r/ferronrsmith/tiny-template-engine?branch=master)
