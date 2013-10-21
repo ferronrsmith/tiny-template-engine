@@ -12,8 +12,7 @@ module.exports = function (grunt) {
         karma: {
             options: {
                 singleRun: true,
-                browsers: ['PhantomJS'],
-                reporters: 'dots'
+                browsers: ['PhantomJS']
             },
 //            e2e: {
 //                configFile: 'config/karma-e2e.conf.js'
@@ -33,14 +32,20 @@ module.exports = function (grunt) {
         watch: {
             files: ['gruntfile.js', 'app/js/*.js', 'test/**/*.js'],
             tasks: ['jshint']
+        },
+        coveralls: {
+            options: {
+                coverage_dir: 'coverage'
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-karma');
+    grunt.loadNpmTasks('grunt-karma-coveralls');
 //    grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.registerTask('test', ['jshint', 'karma:unit']);
-    grunt.registerTask('default', ['jshint', 'karma:unit']);
+    grunt.registerTask('default', ['jshint', 'karma:unit', 'coveralls']);
 
 };

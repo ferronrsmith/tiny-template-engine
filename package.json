@@ -4,11 +4,13 @@
   "author": "A confused individual <ferronrsmith@gmail.com>",
   "engine": "node >= 0.10.0",
   "devDependencies": {
-    "karma": "~0.10.0",
+    "karma": "~0.10.2",
     "grunt-cli": "~0.1.9",
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.2",
     "grunt-contrib-watch": "~0.5.1",
-    "grunt-karma": "~0.6.1"
+    "grunt-karma": "~0.6.1",
+    "karma-coverage": "~0.1.0",
+    "grunt-karma-coveralls": "~2.0.2"
   }
 }
