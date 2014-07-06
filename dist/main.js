@@ -23,7 +23,7 @@ String.prototype.format = function () {
 
 String.prototype.t = function () {
     /**
-     * Simple templating engine that takes as arguments an abject literal and replace the content inside the template
+     * Simple templating engine that takes as arguments an object literal and replace the content inside the template
      *
      * "Hello {who}!".t({ who : 'JavaScript'});
      * // Hello JavaScript!
