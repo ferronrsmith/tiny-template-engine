@@ -1,0 +1,17 @@
+{
+  "name": "tiny-date-formatter",
+  "description": "Tiny Date Formatter",
+  "main": "dist/main.js",
+  "authors": [
+    "A confused individual <ferronrsmith@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ferronrsmith/tiny-template-engine",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
