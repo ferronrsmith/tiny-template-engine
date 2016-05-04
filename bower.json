@@ -1,7 +1,7 @@
 {
   "name": "tiny-date-formatter",
   "description": "Tiny Date Formatter",
-  "main": "dist/main.js",
+  "main": "./dist/main.js",
   "authors": [
     "A confused individual <ferronrsmith@gmail.com>"
   ],
