@@ -1,6 +1,6 @@
 {
-  "name": "tiny-date-formatter",
-  "description": "Tiny Date Formatter",
+  "name": "tiny-template-engine",
+  "description": "Tiny Template Engine",
   "main": "./dist/main.js",
   "authors": [
     "A confused individual <ferronrsmith@gmail.com>"
